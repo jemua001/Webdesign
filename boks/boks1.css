@@ -1,0 +1,18 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin-left: 0px;
+}
+
+.boks {
+    width:99%; /* boksen bredde i prosent */
+    height: 70px; /* boksens høyde i piksler */
+    margin: 10px 0px; /*topp-og bunnmarg 5px, sidemarg auto */
+    padding: 5px;/* avstand mellom bokskant og innhold */
+    background-color: #ec0e0e; /*grønn*/
+
+}
+
+
+
+
