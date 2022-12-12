@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>prøve oppgave</h1>
+
+    <p id="a1">jeg</p>
+    <p id="a2">heter</p>
+
+    
+    <script>
+        var overskriftEL = document.querySelector("h1")
+        var avsnittEL = document.querySelector("#a1");
+        var avsnittandre = document.querySelector("#a2");
+        console.log(overskriftEL);
+
+        overskriftEL.addEventListener("click", klikk);
+        avsnittEL.addEventListener("click", klikk1);
+        avsnittandre.addEventListener("click", klikk2);
+        
+        
+        function klikk (e) {
+            overskriftEL.innerHTML = "Heldagsprøve for 3DEA!"
+        }
+
+        function klikk1 (e){
+            avsnittEL.innerHTML = "Prøve!"
+        }
+        function klikk2 (e){
+            avsnittandre.innerHTML = "Idag!"
+        }
+
+    </script>
+</body>
+</html>
